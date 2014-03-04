@@ -1,0 +1,29 @@
+body {
+    background: url(../images/blue.jpg);
+    background-repeat:repeat-y;
+    background-position:center center;
+    background-attachment:scroll;
+    background-size:100% 100%;
+}
+div#login{
+	align-content: center;
+	text-align: left;
+	top: 40%;
+	position: absolute;
+	left: 40%;
+	color: #ffffff;
+	font-weight: bold;
+}
+div#enter{
+	float: right;
+}
+.ui-page {
+    background: transparent;
+}
+.ui-content{
+    background: transparent;
+}
+
+div.ui-input-text {
+    width: 300px !important
+}
