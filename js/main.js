@@ -1,4 +1,4 @@
-$( document ).ready(function() {
+$( document ).bind( "mobileinit", function() {    // Make your jQuery Mobile framework configuration changes here!    $.mobile.allowCrossDomainPages = true;	$.mobile.phonegapNavigationEnabled = true;
 	document.addEventListener("backbutton", onBackKeyDown, false);
     document.addEventListener("menubutton", onMenuKeyDown, false);
 	
